@@ -4,9 +4,9 @@ def main():
         try:
             convert_string(fraction)
         except ZeroDivisionError:
-            print('error')
+            pass
         except ValueError:
-            print('error')
+            pass
         if convert_string(fraction) == 0.5:
             print('50%')
         elif convert_string(fraction) == 0.25:
@@ -14,9 +14,9 @@ def main():
         elif convert_string(fraction) == 0.75:
             print('75%')
         elif convert_string(fraction) == 1:
-            print('F')
+            pass
         elif convert_string(fraction) == 0:
-            print('E')
+            pass
 
 
 def convert_string(fraction):
